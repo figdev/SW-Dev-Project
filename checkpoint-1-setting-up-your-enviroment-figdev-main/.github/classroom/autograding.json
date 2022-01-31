@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac -d . src/Hello.java",
+      "run": "java Hello",
+      "input": "",
+      "output": "Hello, Github!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
